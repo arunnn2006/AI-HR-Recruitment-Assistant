@@ -1,0 +1,50 @@
+[
+  {
+    "id": "maya-patel",
+    "name": "Maya Patel",
+    "headline": "Product-focused backend developer",
+    "skills": ["Python", "SQL", "REST APIs", "Git", "Unit Testing", "Docker", "FastAPI", "CI/CD"],
+    "years_experience": 5,
+    "education": ["B.S. Computer Science"],
+    "projects": ["Built a FastAPI order service with PostgreSQL and CI/CD", "Added contract and unit testing to a payments platform"],
+    "certifications": ["AWS Certified Developer - Associate"],
+    "strengths": ["API design", "testing discipline", "cross-functional communication"],
+    "missing_skills": []
+  },
+  {
+    "id": "jonah-williams",
+    "name": "Jonah Williams",
+    "headline": "Analytics engineer transitioning into data platform work",
+    "skills": ["Python", "SQL", "ETL", "dbt", "Data Warehousing", "AWS"],
+    "years_experience": 4,
+    "education": ["M.S. Statistics"],
+    "projects": ["Modeled a Snowflake warehouse for product analytics", "Built dbt quality checks for finance reporting"],
+    "certifications": ["dbt Fundamentals"],
+    "strengths": ["data modeling", "quality controls", "stakeholder communication"],
+    "missing_skills": ["Apache Airflow", "Spark"]
+  },
+  {
+    "id": "elena-rossi",
+    "name": "Elena Rossi",
+    "headline": "Cloud platform engineer",
+    "skills": ["Python", "REST APIs", "Docker", "Kubernetes", "AWS", "Redis", "Observability"],
+    "years_experience": 7,
+    "education": ["B.S. Software Engineering"],
+    "projects": ["Migrated monolith workloads to Kubernetes services", "Implemented Redis caching and OpenTelemetry dashboards"],
+    "certifications": ["AWS Certified Solutions Architect - Associate"],
+    "strengths": ["operational reliability", "container platforms", "incident leadership"],
+    "missing_skills": ["PostgreSQL", "Distributed Systems"]
+  },
+  {
+    "id": "samir-khan",
+    "name": "Samir Khan",
+    "headline": "Junior software developer and bootcamp graduate",
+    "skills": ["Python", "Git", "REST APIs"],
+    "years_experience": 1.5,
+    "education": ["B.A. Information Technology"],
+    "projects": ["Created a Flask volunteer scheduling API"],
+    "certifications": [],
+    "strengths": ["learning agility", "clear documentation"],
+    "missing_skills": ["SQL", "Docker", "Unit Testing", "AWS"]
+  }
+]

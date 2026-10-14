@@ -1,0 +1,38 @@
+[
+  {
+    "id": "software-engineer",
+    "title": "Software Engineer",
+    "department": "Product Engineering",
+    "location": "Austin, TX / Hybrid",
+    "summary": "Build reliable customer-facing services and collaborate across product and platform teams.",
+    "mandatory_skills": ["Python", "SQL", "REST APIs", "Git", "Unit Testing"],
+    "preferred_skills": ["Docker", "AWS", "FastAPI", "CI/CD"],
+    "minimum_years_experience": 3,
+    "education": ["Computer Science", "Software Engineering", "Information Technology"],
+    "responsibilities": ["Design and implement backend features", "Review code", "Write automated tests", "Monitor production services"]
+  },
+  {
+    "id": "data-engineer",
+    "title": "Data Engineer",
+    "department": "Data Platform",
+    "location": "Remote - United States",
+    "summary": "Create trustworthy data pipelines and analytical datasets for business and machine learning teams.",
+    "mandatory_skills": ["Python", "SQL", "ETL", "Apache Airflow", "Data Warehousing"],
+    "preferred_skills": ["Spark", "dbt", "AWS", "Kafka"],
+    "minimum_years_experience": 3,
+    "education": ["Computer Science", "Data Engineering", "Statistics", "Mathematics"],
+    "responsibilities": ["Build batch and streaming pipelines", "Improve data quality", "Document datasets", "Partner with analysts"]
+  },
+  {
+    "id": "backend-engineer",
+    "title": "Backend Engineer",
+    "department": "Platform Engineering",
+    "location": "New York, NY / Hybrid",
+    "summary": "Own scalable API services, persistence, and operational reliability for a multi-tenant platform.",
+    "mandatory_skills": ["Python", "REST APIs", "PostgreSQL", "Docker", "Distributed Systems"],
+    "preferred_skills": ["Kubernetes", "Redis", "AWS", "Observability"],
+    "minimum_years_experience": 4,
+    "education": ["Computer Science", "Software Engineering"],
+    "responsibilities": ["Design service contracts", "Tune database access", "Operate containerized services", "Lead incident follow-ups"]
+  }
+]
