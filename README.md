@@ -9,6 +9,10 @@ An Agentic AI recruitment decision-support application for retrieving job and ca
 ## Problem statement
 Recruiters need repeatable shortlisting support without relying on opaque, invented, or inconsistent candidate assessments. This project combines an OpenAI-compatible tool-calling agent with deterministic Python scoring and a local recruitment knowledge base.
 
+<img width="953" height="435" alt="Screenshot 2026-10-07 151751" src="https://github.com/user-attachments/assets/92d60fce-734e-4589-b078-6371fd6f7e0b" />
+
+
+
 ## Objectives
 - Retrieve relevant local evidence instead of sending the full database to the model.
 - Let the agent choose and call recruitment tools.
@@ -17,6 +21,9 @@ Recruiters need repeatable shortlisting support without relying on opaque, inven
 
 ## Architecture and agent behavior
 The agent receives a recruiter request, job ID, and candidate IDs. It can call `get_job_description`, `get_candidate_profiles`, `search_candidates`, `evaluate_candidate`, `compare_candidates`, and `generate_interview_questions`. Python executes each call, returns the result to the LLM, and continues until the LLM returns a JSON report. See [ARCHITECTURE.md](ARCHITECTURE.md).
+
+<img width="941" height="421" alt="Screenshot 2026-10-07 151416" src="https://github.com/user-attachments/assets/6e0dcc65-02a0-473e-9207-ff729d618b98" />
+
 
 Local lexical retrieval ranks records by query/skill token overlap and is intentionally transparent. Deterministic scoring uses mandatory skills (60%), preferred skills (20%), experience (15%), and related education (5%).
 
@@ -44,12 +51,18 @@ Open the local Streamlit URL. The UI displays the actual execution mode and keep
 ## Sample use cases
 Use the included Software Engineer, Data Engineer, and Backend Engineer roles. Try Maya Patel for Software Engineer, Jonah Williams for the Data Engineer missing-Airflow case, and Elena Rossi for Backend Engineer. `python run_scenarios.py` runs all demonstration scenarios and the invalid-input case.
 
+<img width="949" height="410" alt="Screenshot 2026-10-07 151312" src="https://github.com/user-attachments/assets/8867cee6-7404-4faf-9d95-dcd434e0dcef" />
+
+
 ## Testing
 ```powershell
 python -m pytest -q
 python -m compileall -q src app.py run_scenarios.py
 ```
 See [TEST_RESULTS.md](TEST_RESULTS.md) for the latest executed deterministic scenarios.
+
+<img width="944" height="388" alt="Screenshot 2026-10-07 151256" src="https://github.com/user-attachments/assets/42107474-da25-4441-9d86-c8a5b430d503" />
+
 
 ## Responsible AI
 This is decision support, not an autonomous hiring system. The application states that a human recruiter must make the final decision. It uses only stored profile evidence, exposes missing mandatory skills, and keeps deterministic scoring separate from generated explanations. Human review is required before any employment action.
