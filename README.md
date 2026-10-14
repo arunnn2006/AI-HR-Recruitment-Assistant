@@ -1,5 +1,8 @@
 # AI HR Recruitment Assistant
 
+<img width="943" height="431" alt="Screenshot 2026-10-07 151707" src="https://github.com/user-attachments/assets/f3016991-b2e4-45b6-be53-0ffc27b35d6e" />
+
+
 ## Project overview
 An Agentic AI recruitment decision-support application for retrieving job and candidate evidence, evaluating fit transparently, comparing candidates, and creating technical interview questions.
 
